@@ -1,0 +1,308 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma, "microsoft yahei", "\5FAE\8F6F\96C5\9ED1";
+}
+
+.top-tip{
+    width:100%;
+    height:50px;
+    background:#ffba00;
+    text-align:center;
+}
+.top-tip .content{
+    font-size:14px;
+    height:50px;
+    line-height:50px;/*间距*/
+    color:#333333;
+    width:1120px;
+    /*background: #ff3c6d;*/
+
+    display:inline-block;/*设置为inline-block 给子节点好绝对定位*/
+    position:relative;
+}
+.top-tip .close{
+    display:inline-block;
+    position:absolute;/*在父节点中定位位置*/
+    right:0px;
+    top:0px;
+    font-size:22px;
+    color:#333333;
+    cursor:pointer
+}
+
+@font-face {font-family: 'iconfont';
+    src: url('ux/iconfont.eot'); /* IE9*/
+    src: url('ux/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('ux/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('ux/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('ux/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+#site-nav {
+    height: 55px;
+    background-color: #252535;
+    width: 100%;
+    z-index: 99;
+    text-align:center;
+}
+ol, ul {
+    list-style: none;
+}
+li {
+    float: left;
+    /*line-height:50px;/!*间距*!/*/
+    margin: 20px;
+}
+.lists a {
+    color: #757393;
+}
+
+ins, a {
+    text-decoration: none;
+}
+.current a {
+    color: #ffffff;
+}
+.slide a {
+    color: #ffffff;
+    margin: 10px;
+    /*background: #c34712;*/
+    display:inline-block;
+}
+.slide .iconfont {
+    font-size: 22px;
+}
+.head-nav{
+    font-size: 14px;
+}
+.head-nav .lists a:hover {
+    color: #b9b9c3;
+
+}
+.site-nav-bd {
+    width: 1120px;
+    /*margin: 0 auto;*/
+    height: 55px;
+    /*position: relative;*/
+    /*line-height: 55px;*/
+    z-index: 1099;
+    display:inline-block;/*设置为inline-block 给子节点好绝对定位*/
+    position:relative;
+}
+
+.quick-menu {
+    display:inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.quick-menu .lists a {
+    color: #b9b9c3;
+}
+
+.slide {
+    background-color: #252535;
+    height: 495px;
+    width: 100%;
+    overflow-y: visible;
+    position: relative;
+    text-align:center;
+    /*background: #ff9794;*/
+}
+.slide .content{
+    width: 1120px;
+    text-align:center;
+    /*background: #ff5d42;*/
+    display:inline-block;
+}
+.up-logo-text a{
+    font-size:16px;
+    text-decoration:underline
+}
+
+.big-search-panel {
+    width: 840px;
+    height: 50px;
+    /*overflow: hidden;*/
+    margin: 40px auto;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    position: relative;
+    /*background: #ff5d42;*/
+}
+
+.big-search-panel .search-panel-fields {
+    background-color: #ffffff;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+
+    width: 100%;
+    border-radius: 4px;
+    padding: 0 6px 0 6px;
+}
+
+.big-search-panel .search-panel-fields .search-q {
+    height: 50px;
+    background: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    border: 0px;
+    outline: none;
+    display: inline-block;
+    position: relative;
+    font-family: "Microsoft YaHei";
+    width: 100%;
+}
+.search-panel-fields{
+    display: inline-block;
+    position: relative;
+    top:0px;
+}
+.big-search-panel.search-panel .search-icon {
+    color: #bdbdbf;
+    font-size: 25px;
+    display: inline-block;
+    position: absolute;
+    left: 338px;
+    top: 6px;
+}
+
+.slide .tips a {
+    font-size: 12px;
+    color: #64646d;
+    text-decoration: underline;
+}
+.slide .site {
+    font-size: 12px;
+    color: #64646d;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.layout-ct {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    height: 572px;
+    text-align: center;
+}
+.layout{
+    width: 1120px;
+    height: 572px;
+    background: #ffffff;
+    display: inline-block;
+}
+.icon_intro {
+    display: inline-block;
+    margin: 150px 0px;
+    width:100%;
+    height:200px;
+    background: #ffffff;
+}
+
+#footer {
+    background-color: #ebebed;
+
+    font-family: "Microsoft YaHei";
+    width:100%;
+    display: inline-block;
+    text-align: center;
+
+}
+#footer .foot-main {
+    width: 1080px;
+    display: inline-block;
+    position: relative;
+    /*background: #ffffff;*/
+    text-align: left;
+
+}
+.foot-main h3{
+    margin: 25px 0;
+}
+#footer ul {
+    display: inline-block;
+    width: 675px;
+    margin: 15px 0;
+    float: left;
+    /*background: #ffffff;*/
+}
+
+#footer li {
+    width: 150px;
+    float: left;
+    line-height: 0px;
+    margin: 12px;
+}
+#footer li a {
+    color: #4e4e61;
+}
+#footer .contact {
+    float: right;
+    font-size: 14px;
+}
+#footer .contact a {
+    color: #4e4e61;
+    text-decoration: none;
+}
+#copyright {
+    background-color: #d8d8dc;
+    clear: both;
+}
+.copyright {
+    padding: 20px;
+    width: 1080px;
+    margin: 0 auto;
+    text-align: left;
+}
