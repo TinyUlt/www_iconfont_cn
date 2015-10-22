@@ -306,3 +306,15 @@ ins, a {
     margin: 0 auto;
     text-align: left;
 }
+.quick-menu-sub {
+    background-color: #262635;
+    width: 150px;
+    position: absolute;
+    left: 0px;
+    top: 52px;
+    padding: 5px 0 10px;
+    z-index: 2;
+    border-radius: 3px;
+    overflow: hidden;
+    display: none;
+}
